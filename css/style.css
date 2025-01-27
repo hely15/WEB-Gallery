@@ -1,3 +1,7 @@
+*{
+    background-color: #FFFDEC;
+    
+}
 html, body {
     position: absolute;
     width: 1440px;
@@ -21,8 +25,23 @@ html, body {
     color: #252525CC;
 }
 
+.boton{
+    font-family: 'montserrat-SemiBold', sans-serif; color: #FFFFFF;
+    background-color: #252525;
+    width: 158px;
+    height: 54px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.botonmove{
+    position: absolute;
+    left: 226px;
+}
+
 div.texst{
-    position: center;
+
     position: absolute;
     width: 610px;
     height: 355px;
