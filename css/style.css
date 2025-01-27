@@ -9,16 +9,17 @@ body{
 
 .titulo{
     text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
+    font-family: 'AvenirLTStd-HeavyOblique', sans-serif;
+    letter-spacing: 2px;
     color: #252525;
 }
-
 
 .parrafo{
     text-align: center;
     width: 607px;
     height: 108px;
     font-family: 'Montserrat-SemiBold', sans-serif;
+    letter-spacing: 1px;
     size: 26px;
     font-weight: 400;
     color: #252525CC;
