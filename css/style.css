@@ -4,6 +4,22 @@ html, body {
     height: 1139px;
 }
 
+.titulo{
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #252525;
+}
+
+
+.parrafo{
+    text-align: center;
+    width: 607px;
+    height: 108px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    size: 26px;
+    font-weight: 400;
+    color: #252525CC;
+}
 
 div.texst{
     position: center;
@@ -12,6 +28,7 @@ div.texst{
     height: 355px;
     top: 64px;
     left: 415px;
+    
 }
 
 div.carrusel1 {
