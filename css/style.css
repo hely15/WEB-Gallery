@@ -1,12 +1,11 @@
-*{
+body{
     background-color: #FFFDEC;
-    
-}
-html, body {
+    margin: 0;
     position: absolute;
-    width: 1440px;
-    height: 1139px;
+    width: 100svw;
+    height: 100svh;
 }
+
 
 .titulo{
     text-align: center;
@@ -25,8 +24,8 @@ html, body {
     color: #252525CC;
 }
 
-.boton{
-    font-family: 'montserrat-SemiBold', sans-serif; color: #FFFFFF;
+#boton{
+    font-family: 'Montserrat-SemiBold', sans-serif; color: #FFFFFF;
     background-color: #252525;
     width: 158px;
     height: 54px;
@@ -50,27 +49,30 @@ div.texst{
     
 }
 
-div.carrusel1 {
+
+div.carrusel{
     position: absolute;
-    width: 1312px;
-    height: 288px;
     top: 483px;
-    left: 54px;
-    display: flex; 
-    gap: 16px; 
+    left: 50%;
+    transform: translate(-50%);
+    width: 1312px;
+    height: 592px;
+    
+} 
+
+div.containertext{
+    position: absolute;
+    width: 610px;
+    height: 355px;
+    top: 64px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
+div.col{
+    padding-top: 20px;
+}
 
-div.carrusel2{
-    position: absolute;
-    width: 1312px;
-    height: 288px;
-    top: 787px;
-    left: 54px;
-    display: flex;
-    gap: 16px;
-   
-} 
 
 div.imgs {
     display: flex;
